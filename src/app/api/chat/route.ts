@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 
 // ⚠️ 请把这里换成你的真实邮箱地址
-const MY_EMAIL_ADDRESS = "xu.teng@kean.edu"; // 例如: tengxu@kean.edu
+const MY_EMAIL_ADDRESS = "xuten@kean.edu"; // 例如: tengxu@kean.edu
 
 export async function POST(req: Request) {
   try {
