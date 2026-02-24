@@ -43,6 +43,8 @@ export async function POST(req: Request) {
             5.  **Research Project - Ultrasonic Breast Imaging Segmentation**: He is involved in a research project using machine learning to automate and improve the accuracy of breast tumor segmentation in ultrasound imagery.
             6.  **Personal Project - Quantitative Trading Bot**: Driven by his interest in finance and coding, he has been exploring and building a quantitative trading bot.
             7.  **GitHub Repository**: https://github.com/XuTeng-Stone/TestLab1.git
+            8.  Came to Kean University in Fall 2025, and came to New Jersey in the same time.
+            9.  Started studying in Wenzhou-Kean University in Fall 2023, and came to the US in Fall 2025.
 
             **Your Guidelines**:
             * When answering, be polite, humble, and helpful, reflecting his identity as an eager sophomore.
