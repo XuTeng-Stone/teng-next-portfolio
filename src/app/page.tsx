@@ -168,7 +168,7 @@ export default function Home() {
 
       {/* 📧 邮箱联系弹窗 (Modal) */}
       {showEmail && (
-        <div className="fixed inset-0 bg-black bg-opacity-40 backdrop-blur-sm flex items-center justify-center z-50 px-4 transition-opacity">
+        <div className="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-50 px-4 transition-all duration-300">
           <div className="bg-white rounded-2xl shadow-2xl p-8 max-w-sm w-full relative animate-in fade-in zoom-in duration-200">
             {/* 关闭按钮 (右上角 X) */}
             <button 
