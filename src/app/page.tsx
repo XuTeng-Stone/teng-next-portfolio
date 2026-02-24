@@ -45,16 +45,19 @@ export default function Home() {
         </div>
       </section>
 
-      {/* About Section */}
+     {/* About Section */}
       <section id="about" className="px-8 py-24 bg-gray-50 border-t border-gray-100">
         <div className="max-w-4xl mx-auto space-y-8">
           <h2 className="text-3xl font-bold text-gray-900">About Me</h2>
           <div className="text-lg leading-relaxed space-y-6 text-gray-700">
             <p>
-              I am a passionate developer and researcher currently studying at Kean University. My academic and technical journey is driven by a deep interest in bridging theoretical mathematics—such as linear algebra, calculus, and statistics—with practical software engineering.
+              Hi, I'm Teng Xu, currently a <strong>sophomore studying at Kean University</strong>. I have a strong passion for software development and solving practical problems through code. 
             </p>
             <p>
-              Currently, my focus lies at the intersection of Machine Learning and robust system design. Whether I am architecting web applications, diving into Object-Oriented Analysis and Design, or training algorithms to solve complex real-world problems, I thrive on building efficient, scalable, and impactful solutions.
+              My academic journey is built on a solid foundation in sciences, with extensive coursework in <strong>Calculus, Statistics, Linear Algebra, and Physics</strong>. As a second-year student, I am actively expanding my technical skill set. I am currently diving deep into <strong>Web Development, C#, and Object-Oriented Analysis and Design (OOAD)</strong>.
+            </p>
+            <p>
+              Beyond my regular coursework, I am exploring the field of Machine Learning. Whether it's applying algorithms to my research on ultrasonic breast imaging segmentation or experimenting with building a quantitative trading bot, I am always eager to learn, grow, and take on new challenges.
             </p>
           </div>
         </div>
