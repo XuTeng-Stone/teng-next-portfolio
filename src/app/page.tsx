@@ -8,6 +8,7 @@ export default function Home() {
         <div className="text-2xl font-bold text-gray-900 tracking-tight">Teng.dev</div>
         <div className="space-x-8 text-sm font-medium text-gray-600 hidden md:block">
           <a href="#about" className="hover:text-blue-600 transition">About</a>
+          <a href="#skills" className="hover:text-blue-600 transition">Skills</a> {/* 新增的技能导航 */}
           <a href="#projects" className="hover:text-blue-600 transition">Projects</a>
           <a href="#ai" className="hover:text-blue-600 transition">Ask AI</a>
         </div>
@@ -45,7 +46,7 @@ export default function Home() {
         </div>
       </section>
 
-     {/* About Section */}
+      {/* About Section */}
       <section id="about" className="px-8 py-24 bg-gray-50 border-t border-gray-100">
         <div className="max-w-4xl mx-auto space-y-8">
           <h2 className="text-3xl font-bold text-gray-900">About Me</h2>
@@ -63,8 +64,58 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Projects Section */}
-      <section id="projects" className="px-8 py-24 bg-white border-t border-gray-100">
+      {/* Skills Section (新增模块) */}
+      <section id="skills" className="px-8 py-24 bg-white border-t border-gray-100">
+        <div className="max-w-4xl mx-auto space-y-10">
+          <h2 className="text-3xl font-bold text-gray-900">Technical Skills</h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* 编程语言 */}
+            <div className="space-y-4">
+              <h3 className="text-xl font-semibold text-gray-800 border-b pb-2">Programming Languages</h3>
+              <div className="flex flex-wrap gap-3">
+                <span className="bg-gray-100 text-gray-800 px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-200 transition">C#</span>
+                <span className="bg-gray-100 text-gray-800 px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-200 transition">Python</span>
+                <span className="bg-gray-100 text-gray-800 px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-200 transition">JavaScript / TypeScript</span>
+              </div>
+            </div>
+
+            {/* Web 开发 */}
+            <div className="space-y-4">
+              <h3 className="text-xl font-semibold text-gray-800 border-b pb-2">Web Development</h3>
+              <div className="flex flex-wrap gap-3">
+                <span className="bg-blue-50 text-blue-700 px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-100 transition">React.js</span>
+                <span className="bg-blue-50 text-blue-700 px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-100 transition">Next.js</span>
+                <span className="bg-blue-50 text-blue-700 px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-100 transition">Tailwind CSS</span>
+                <span className="bg-blue-50 text-blue-700 px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-100 transition">HTML & CSS</span>
+              </div>
+            </div>
+
+            {/* 核心概念与理论 */}
+            <div className="space-y-4">
+              <h3 className="text-xl font-semibold text-gray-800 border-b pb-2">Core Concepts & Theory</h3>
+              <div className="flex flex-wrap gap-3">
+                <span className="bg-indigo-50 text-indigo-700 px-4 py-2 rounded-lg text-sm font-medium hover:bg-indigo-100 transition">Machine Learning</span>
+                <span className="bg-indigo-50 text-indigo-700 px-4 py-2 rounded-lg text-sm font-medium hover:bg-indigo-100 transition">OOAD</span>
+                <span className="bg-indigo-50 text-indigo-700 px-4 py-2 rounded-lg text-sm font-medium hover:bg-indigo-100 transition">Operating Systems</span>
+              </div>
+            </div>
+
+            {/* 数理基础 */}
+            <div className="space-y-4">
+              <h3 className="text-xl font-semibold text-gray-800 border-b pb-2">Mathematical Foundation</h3>
+              <div className="flex flex-wrap gap-3">
+                <span className="bg-teal-50 text-teal-700 px-4 py-2 rounded-lg text-sm font-medium hover:bg-teal-100 transition">Calculus</span>
+                <span className="bg-teal-50 text-teal-700 px-4 py-2 rounded-lg text-sm font-medium hover:bg-teal-100 transition">Linear Algebra</span>
+                <span className="bg-teal-50 text-teal-700 px-4 py-2 rounded-lg text-sm font-medium hover:bg-teal-100 transition">Statistics</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Projects Section (背景颜色调整为灰色以作区分) */}
+      <section id="projects" className="px-8 py-24 bg-gray-50 border-t border-gray-100">
         <div className="max-w-4xl mx-auto space-y-10">
           <h2 className="text-3xl font-bold text-gray-900">Featured Projects</h2>
           
@@ -104,14 +155,14 @@ export default function Home() {
       </section>
 
       {/* AI Assistant Section */}
-      <section id="ai" className="px-8 py-24 bg-gray-50 border-t border-gray-100">
+      <section id="ai" className="px-8 py-24 bg-white border-t border-gray-100">
         <div className="max-w-4xl mx-auto">
           <div className="mb-10 text-center">
             <h2 className="text-3xl font-bold text-gray-900">AI-powered Chatbot Assistant</h2>
             <p className="text-gray-600 mt-4 text-lg">Have a question about my resume, skills, or project history? Ask my AI!</p>
           </div>
           
-          <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-200">
+          <div className="bg-gray-50 p-8 rounded-2xl shadow-sm border border-gray-200">
             <AIChat />
           </div>
         </div>
